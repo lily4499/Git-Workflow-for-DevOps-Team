@@ -24,11 +24,9 @@ Set up a professional Git workflow that includes:
 - **GitHub Actions**: CI workflows like linting or tests  
 
 ---
----
 
 ## 🧱 Step-by-Step Implementation
 
----
 ### 🧩 Step 1: Create the GitHub Repo
 
 This is the central place where your DevOps team stores and collaborates on code. Using GitHub also allows integration with CI/CD tools, issue tracking, and automation.
