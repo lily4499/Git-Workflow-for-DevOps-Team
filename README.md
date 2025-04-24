@@ -77,12 +77,11 @@ On GitHub:
 ---
 
 ### 🧩 Step 4: Add a GitHub Action for Linting/Validation
-```plain text
 This step sets up automated CI that runs every time someone pushes code or creates a pull request. It:  
   - Automatically checks code for syntax issues, formatting, or style errors (like eslint, flake8, or shellcheck)  
   - Helps maintain clean and error-free code  
   - Prevents bad code from entering the main branch  
-```
+
 Create a CI workflow file:
 
 ```bash
@@ -123,9 +122,9 @@ npx eslint --init
 ### 🧩 Step 5: Add Pre-Commit Hooks
 
 Pre-commit hooks run before you commit code locally to catch small errors like:  
-  Trailing whitespace  
-  Missing end-of-file newlines  
-  Malformed YAML or JSON  
+  - Trailing whitespace  
+  - Missing end-of-file newlines  
+  - Malformed YAML or JSON  
 This helps avoid careless mistakes and keeps code clean before it even reaches GitHub.  
 
 #### 1. Install pre-commit:
@@ -161,6 +160,15 @@ pre-commit run --all-files
 ---
 
 ### 🧩 Step 6: Semantic Versioning and Git Tags
+
+Tags are like version numbers (e.g., v1.0.0) that let you:
+  - Mark stable releases
+  - Roll back to older versions if needed
+  - Use in automated deployments (CI/CD can trigger on tags)
+Semantic versioning helps organize changes:
+  - v1.0.0 — major release
+  - v1.1.0 — new features
+  - v1.1.1 — bug fixes only
 
 #### 🌱 Commit best practices:
 
