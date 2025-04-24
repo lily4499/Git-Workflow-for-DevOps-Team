@@ -77,11 +77,12 @@ On GitHub:
 ---
 
 ### 🧩 Step 4: Add a GitHub Action for Linting/Validation
+```plain text
 This step sets up automated CI that runs every time someone pushes code or creates a pull request. It:  
   Automatically checks code for syntax issues, formatting, or style errors (like eslint, flake8, or shellcheck)  
   Helps maintain clean and error-free code  
   Prevents bad code from entering the main branch  
-
+```
 Create a CI workflow file:
 
 ```bash
