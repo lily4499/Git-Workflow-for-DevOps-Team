@@ -165,7 +165,7 @@ Tags are like version numbers (e.g., v1.0.0) that let you:
   - Mark stable releases
   - Roll back to older versions if needed
   - Use in automated deployments (CI/CD can trigger on tags)  
-Semantic versioning helps organize changes:  
+Semantic versioning helps organize changes:
   - v1.0.0 — major release
   - v1.1.0 — new features
   - v1.1.1 — bug fixes only
