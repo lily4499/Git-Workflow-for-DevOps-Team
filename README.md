@@ -77,10 +77,10 @@ On GitHub:
 ---
 
 ### 🧩 Step 4: Add a GitHub Action for Linting/Validation
-This step sets up automated CI that runs every time someone pushes code or creates a pull request. It:
-  Automatically checks code for syntax issues, formatting, or style errors (like eslint, flake8, or shellcheck)
-  Helps maintain clean and error-free code
-  Prevents bad code from entering the main branch
+This step sets up automated CI that runs every time someone pushes code or creates a pull request. It:  
+  Automatically checks code for syntax issues, formatting, or style errors (like eslint, flake8, or shellcheck)  
+  Helps maintain clean and error-free code  
+  Prevents bad code from entering the main branch  
 
 Create a CI workflow file:
 
@@ -121,11 +121,11 @@ npx eslint --init
 
 ### 🧩 Step 5: Add Pre-Commit Hooks
 
-Pre-commit hooks run before you commit code locally to catch small errors like:
-  Trailing whitespace
-  Missing end-of-file newlines
-  Malformed YAML or JSON
-This helps avoid careless mistakes and keeps code clean before it even reaches GitHub.
+Pre-commit hooks run before you commit code locally to catch small errors like:  
+  Trailing whitespace  
+  Missing end-of-file newlines  
+  Malformed YAML or JSON  
+This helps avoid careless mistakes and keeps code clean before it even reaches GitHub.  
 
 #### 1. Install pre-commit:
 
